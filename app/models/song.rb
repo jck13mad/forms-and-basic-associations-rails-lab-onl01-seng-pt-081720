@@ -28,7 +28,7 @@ class Song < ActiveRecord::Base
   
   def note_contents
     ret = []
-    self.notes.each do |notes|
+    self.notes.each do |note|
       ret << note.content unless note.content.empty?
     end 
   end 
