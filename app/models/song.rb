@@ -28,6 +28,6 @@ class Song < ActiveRecord::Base
   
   def note_contents
     ret = []
-    
+    self.notes.
   end 
 end
