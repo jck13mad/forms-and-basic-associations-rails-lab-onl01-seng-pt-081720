@@ -8,5 +8,7 @@ class Song < ActiveRecord::Base
     self.genre = Genre.find_or_create_by(name: genre)
   end 
   
-  def 
+  def genre_name 
+    
+  end 
 end
