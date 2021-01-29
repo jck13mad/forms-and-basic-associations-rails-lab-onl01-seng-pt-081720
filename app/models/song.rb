@@ -5,5 +5,6 @@ class Song < ActiveRecord::Base
   belongs_to :artist 
   
   def genre_name=(genre)
+    self.genre
   end 
 end
